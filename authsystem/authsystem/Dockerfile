@@ -11,4 +11,4 @@ COPY target/authsystem-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8000
 
 # Run the Spring Boot app
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "authsystem.app"]
